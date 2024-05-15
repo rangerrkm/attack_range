@@ -33,8 +33,8 @@ The Attack Range Documentation can be found [here](https://attack-range.readthed
 Attack Range in AWS:
 
 ```
-docker pull splunk/attack_range
-docker run -it splunk/attack_range
+sudo docker pull splunk/attack_range
+sudo docker run -it splunk/attack_range
 aws configure
 python attack_range.py configure
 ```
